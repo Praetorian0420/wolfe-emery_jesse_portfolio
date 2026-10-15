@@ -1819,13 +1819,16 @@ h1 span {
   line-height: 1.8;
 }
 .goals-mark { color: #d77d5d; font-size: 31px; }
-.goals-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid #d7d8cf; }
-.goal-card { min-height: 160px; padding: 19px 22px 18px 0; border-right: 1px solid #d7d8cf; }
-.goal-card + .goal-card { padding-left: 22px; }
-.goal-card:last-child { border: 0; }
-.goal-number { color: #829078; font-size: 8px; font-weight: 700; letter-spacing: .12em; }
-.goal-card h3 { margin: 15px 0 8px; font-family: var(--serif); font-size: 19px; font-weight: 400; }
-.goal-card p { max-width: 260px; margin: 0; color: #6c756d; font-size: 11px; line-height: 1.7; }
+.goals-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.goal-card {
+  min-height: 154px;
+  padding: 21px 22px;
+  border: 1px solid #d7d8cf;
+  background: #f8f6f0;
+}
+.goal-number { color: #829078; font-size: 9px; font-weight: 700; letter-spacing: .12em; }
+.goal-card h3 { margin: 13px 0 7px; font-family: var(--serif); font-size: 20px; font-weight: 400; }
+.goal-card p { max-width: 360px; margin: 0; color: #626d66; font-size: 12px; line-height: 1.75; }
 .site-plan-section { padding-block: 69px 78px; background: #ebe9e0; }
 .site-plan-heading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin: 18px 0 30px; }
 .site-plan-heading h2 { max-width: 500px; }
@@ -1914,14 +1917,11 @@ h1 span {
   .goals-heading p, .site-plan-heading p { font-size: 11px; }
   .goals-mark { font-size: 23px; }
   .goals-grid { grid-template-columns: 1fr; }
-  .goal-card, .goal-card + .goal-card {
+  .goal-card {
     min-height: 0;
-    padding: 16px 0;
-    border-right: 0;
-    border-bottom: 1px solid #d7d8cf;
+    padding: 18px;
   }
-  .goal-card:last-child { border-bottom: 0; }
-  .goal-card h3 { margin: 9px 0 5px; }
+  .goal-card h3 { margin: 10px 0 6px; }
   .site-plan-section { padding-block: 48px 56px; }
   .site-plan-heading { align-items: start; flex-direction: column; gap: 10px; margin: 15px 0 22px; }
   .portfolio-blueprint { grid-template-columns: 1fr; }
