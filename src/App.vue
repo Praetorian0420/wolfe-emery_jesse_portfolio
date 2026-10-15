@@ -98,6 +98,11 @@ const palette = [
             <h3>Improve with practice</h3>
             <p>Build, ask questions, learn from feedback, and keep getting better over time.</p>
           </article>
+          <article class="goal-card">
+            <span class="goal-number">04 / CONNECT</span>
+            <h3>Collaborate effectively</h3>
+            <p>Work well with others, share knowledge, and contribute to a positive team environment.</p>
+          </article>
         </div>
       </section>
 
