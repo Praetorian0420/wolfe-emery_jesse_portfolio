@@ -1316,16 +1316,7 @@ h1 span {
   width: min(100%, 280px);
   justify-self: center;
   margin: 0;
-  padding: 0 0 31px 20px;
-}
-.portfolio-portrait::before {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border: 1px solid #aab4a3;
-  content: '';
+  padding: 0;
 }
 .portfolio-portrait img {
   position: relative;
@@ -1338,11 +1329,11 @@ h1 span {
 }
 .portfolio-portrait figcaption {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  margin-top: 10px;
-  padding: 10px 14px;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 11px 14px;
   color: white;
   background: #182a2b;
 }
@@ -1353,6 +1344,7 @@ h1 span {
 .portfolio-portrait figcaption span:last-child {
   color: #d4dbd0;
   font-size: 8px;
+  text-align: right;
 }
 .hero-side-note {
   position: absolute;
