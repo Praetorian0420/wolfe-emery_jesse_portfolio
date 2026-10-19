@@ -1340,7 +1340,7 @@ h1 span {
   right: 0;
   bottom: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: center;
   gap: 3px;
   padding: 10px 14px;
   color: white;
