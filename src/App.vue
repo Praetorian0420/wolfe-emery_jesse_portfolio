@@ -1336,7 +1336,7 @@ h1 span {
   object-position: center;
 }
 .portfolio-portrait figcaption {
-  position: absolute;
+  position: below the image;
   right: 0;
   bottom: 0;
   display: flex;
