@@ -1313,7 +1313,7 @@ h1 span {
 }
 .portfolio-portrait {
   position: relative;
-  width: min(100%, 330px);
+  width: min(100%, 280px);
   justify-self: center;
   margin: 0;
   padding: 0 0 31px 20px;
@@ -1331,9 +1331,9 @@ h1 span {
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 0.88;
+  aspect-ratio: 1;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center;
 }
 .portfolio-portrait figcaption {
   position: absolute;
@@ -1652,7 +1652,7 @@ h1 span {
     font-size: 10px;
   }
   .portfolio-portrait {
-    width: min(78%, 280px);
+    width: min(78%, 250px);
     padding-left: 13px;
   }
   .hero-side-note {
