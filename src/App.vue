@@ -1331,17 +1331,17 @@ h1 span {
   position: relative;
   display: block;
   width: 100%;
+  /* Match the square source to preserve the full portrait without a tall crop. */
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
 }
 .portfolio-portrait figcaption {
-  position: below the image;
-  right: 0;
-  bottom: 0;
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
+  align-items: center;
   gap: 3px;
+  margin-top: 10px;
   padding: 10px 14px;
   color: white;
   background: #182a2b;
