@@ -1313,7 +1313,7 @@ h1 span {
 }
 .portfolio-portrait {
   position: relative;
-  width: min(100%, 280px);
+  width: min(100%, 220px);
   justify-self: center;
   margin: 0;
   padding: 0;
