@@ -1365,10 +1365,7 @@ h1 span {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
-.portfolio-container {
-  width: min(1000px, calc(100% - 64px));
-  margin-inline: auto;
-}
+
 .about-section {
   padding-block: 78px 82px;
 }
