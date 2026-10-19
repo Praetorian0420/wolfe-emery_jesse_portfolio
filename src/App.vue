@@ -1329,7 +1329,7 @@ h1 span {
 }
 .portfolio-portrait figcaption {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
   margin-top: 12px;
